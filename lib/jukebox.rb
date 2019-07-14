@@ -19,3 +19,5 @@ def help
 - exit : exits this program"
 end
 
+def list (songs)
+  songs.each do |index
