@@ -45,6 +45,18 @@ def run(songs)
   puts "Please enter a command:"
   user_input = gets.chomp
   case user_input
+  when "exit"
+    exit_jukebox
+    break
+  when "play"
+    play(songs)
+  when "list"
+    list(songs)
+  else
+    puts "Invalid input, enter a valid command"
+  end
+end
+end
   
 
 
