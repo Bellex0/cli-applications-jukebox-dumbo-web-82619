@@ -29,4 +29,4 @@ def play(songs)
   if songs.include?(user_input) 
     puts "Playing <song name>"
   else 
-    puts 
+    puts "Invalid input, please try again"
