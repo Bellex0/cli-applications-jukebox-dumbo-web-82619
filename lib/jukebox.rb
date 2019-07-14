@@ -40,6 +40,10 @@ def exit_jukebox
 end
 
 def run 
-help
-puts "Please enter a command:"
-user_input = 
+  help
+  puts "Please enter a command:"
+  user_input = gets.chomp
+  
+
+
+
